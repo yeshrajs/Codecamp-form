@@ -1,0 +1,17 @@
+body{
+    background-image: url("space-gc93caa350_1920.jpg");
+    color: aliceblue;
+}
+#title{
+    text-align: center;
+    font-size: 26px;
+    font-weight: 400;
+}
+#description{
+    text-align: center;
+  
+}
+#survey-form{
+    align-content: center;
+    background-color: ;
+}

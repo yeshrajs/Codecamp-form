@@ -1,17 +1,55 @@
 body{
-    background-image: url("space-gc93caa350_1920.jpg");
+    background-image: url("mountain-g6ea9ee45a_1920.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     color: aliceblue;
+   
 }
 #title{
     text-align: center;
-    font-size: 26px;
+    font-size: 39px;
     font-weight: 400;
 }
 #description{
     text-align: center;
+    font-size: 150%;
   
 }
 #survey-form{
     align-content: center;
-    background-color: ;
+    background-color:rgba(99, 100, 99, 0.5) ;
+width: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+  padding-top: 0.75rem;
+font-size: 26px;
+line-height:36px;
+margin-left: 20%;
+margin-right: 20%;
+}
+.input-text{
+    width:80%;
+    border-radius: 7px;
+    height: 2.5rem;
+    padding-left: 5px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.recommendation{
+    display: grid;
+    
+}
+#textarea{
+    width:80% ;
+    height:7.5rem;
+    margin-bottom: 10px;
+}
+#submit{
+    width:80%;
+background-color:  rgb(4, 161, 56);
+height:3rem ;
+border-radius: 7px;
+
 }

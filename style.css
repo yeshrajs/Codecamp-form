@@ -1,36 +1,41 @@
-body{
+body {
     background-image: url("https://i.ibb.co/0jZYMkW/mountain-g6ea9ee45a-1920.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     color: aliceblue;
-   
+    font-family: Poppins;
+
 }
-#title{
+
+#title {
     text-align: center;
     font-size: 39px;
     font-weight: 400;
 }
-#description{
+
+#description {
     text-align: center;
     font-size: 150%;
-  
+
 }
+
 #survey-form {
     align-content: center;
-    background-color:rgba(99, 100, 99, 0.5) ;
-width: auto;
-  display: flex;
-  justify-content: center;
-  margin-top: 1.5rem;
-  padding-top: 0.75rem;
-font-size: 26px;
-line-height:36px;
-margin-left: 20%;
-margin-right: 20%;
+    background-color: rgba(99, 100, 99, 0.5);
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    padding-top: 0.75rem;
+    font-size: 26px;
+    line-height: 36px;
+    margin: auto;
+    margin-top: 1.5rem;
 }
-.input-text{
-    width:80%;
+
+/* button */
+.input-text {
+    width: 80%;
     border-radius: 7px;
     height: 2.5rem;
     padding-left: 5px;
@@ -40,19 +45,39 @@ margin-right: 20%;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
-.recommendation{
+
+.recommendation {
     display: grid;
-    
+
 }
-#textarea{
-    width:80% ;
-    height:7.5rem;
+
+#textarea {
+    width: 80%;
+    height: 7.5rem;
     margin-bottom: 10px;
 }
-#submit{
-    width:80%;
-background-color:  rgb(4, 161, 56);
-height:3rem ;
-border-radius: 7px;
+
+#submit {
+    width: 80%;
+    background-color: rgb(4, 161, 56);
+    height: 3rem;
+    border-radius: 7px;
+
+}
+
+/* responsive */
+@media (max-width:320px) {
+    #title {
+        text-align: center;
+        font-size: 25px;
+        font-weight: 400;
+
+    }
+
+    #description {
+        text-align: center;
+        font-size: 14px;
+
+    }
 
 }
